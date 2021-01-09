@@ -1,0 +1,17 @@
+class Rectangle:
+    def __init__(self,l,b):
+        self.l=l
+        self.b=b
+    def area(self):
+        return self.l*self.b
+
+    pass
+
+class Circle:
+    def __init__(self,r):
+        self.r=r
+    def area(self):
+        return math.pi*(self.r**2)
+    pass
+
+if __name__ == '__main__'
