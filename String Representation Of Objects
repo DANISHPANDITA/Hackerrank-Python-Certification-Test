@@ -1,0 +1,9 @@
+class Car:
+
+    def __new__(self, speed,units):
+        return "Car with the maximum speed of {0} {1}".format(speed, units)
+
+class Boat:
+
+    def __new__(self,speed):
+        return "Boat with the maximum speed of {0} knots".format(speed)
